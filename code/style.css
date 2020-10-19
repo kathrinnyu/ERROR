@@ -1,0 +1,395 @@
+* {box-sizing: border-box;}
+
+html, body {
+    font-size: 16px;
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.index{
+    position: fixed;
+    width: 1280px;
+    height: 800px;
+    background-color: #121336;
+    z-index: 1;
+}
+
+.stars{
+    position: fixed;
+    width: 1280px;
+    height: 800px;
+    z-index: 2;
+    opacity: 90%;
+}
+
+.sparkle{
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 20%;
+    left: 80%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 10;
+}
+
+.earth{
+    position: absolute;
+    width: 1280px;
+    height: 800px;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 5;
+}
+
+.land{
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 40%;
+    left: 40%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 10;
+}
+
+.line{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    padding: 2rem;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: 400;
+    z-index: 20;
+    font-size: 1.25rem;
+}
+
+h1{
+    position: absolute;
+    top: 6rem;
+    left: 8rem;
+    font-size: 2rem;
+    z-index: 5;
+}
+
+.statement{
+    position: absolute;
+    top: 10rem;
+    left: 8rem;
+    width: 45%;
+    height: 30%;
+    z-index: 5;
+    font-size: 1rem;
+}
+
+.fullearth{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 50%;
+    left: 80%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 5;
+}
+
+.ocean{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 1280px;
+    height: auto;
+    z-index: 1;
+}
+
+.island{
+    position: absolute;
+    display: block;
+    width: 700px;
+    height: auto;
+    top: 28rem;
+    left: 52%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 10;
+}
+
+.centre{
+    position: absolute;
+    top: 45rem;
+    left: 50%;
+    padding: 2rem;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: 400;
+    z-index: 20;
+    font-size: 1.25rem;
+}
+
+.container {
+    position: relative;
+  }
+
+.turtle{
+    position: absolute;
+    display: block;
+    width: 700px;
+    height: auto;
+    top: 28rem;
+    left: 52%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 10;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+.overlay {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    left: 51%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 5;
+    opacity: 0;
+    transition: 0.2s ease;
+  }
+  
+.container:hover .overlay {
+    width: 700px;
+    height: auto;
+    opacity: 1;
+  }
+
+.text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    z-index: 30;
+  }
+
+.a{
+    position: absolute;
+    top: 75rem;
+    left: 5rem;
+    padding: 2rem;
+    font-weight: 400;
+    z-index: 20;
+}
+
+.b{
+    position: absolute;
+    top: 100rem;
+    right: 5rem;
+    padding: 2rem;
+    font-weight: 400;
+    z-index: 20;
+}
+
+.c{
+    position: absolute;
+    top: 150rem;
+    left: 5rem;
+    padding: 2rem;
+    font-weight: 400;
+    z-index: 20;
+}
+
+.d{
+    position: absolute;
+    top: 200rem;
+    right: 5rem;
+    padding: 2rem;
+    font-weight: 400;
+    z-index: 20;
+}
+
+.e{
+    position: absolute;
+    top: 300rem;
+    left: 5rem;
+    padding: 2rem;
+    font-weight: 400;
+    z-index: 20;
+}
+
+.f{
+    position: absolute;
+    top: 350rem;
+    right: 5rem;
+    padding: 2rem;
+    font-weight: 400;
+    z-index: 20;
+}
+
+.g{
+    position: absolute;
+    top: 400rem;
+    left: 50%;
+    padding: 2rem;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: 100;
+    z-index: 20;
+    font-size: 3rem;
+}
+
+.alien{
+    position: absolute;
+    top: 450rem;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 20;
+    height: auto;
+    width: 300px;
+}
+
+.hor{
+    max-width: 3840px;
+    max-height: 800px;
+    overflow-y: hidden;
+}
+
+.city{
+    position: absolute;
+    display: block;
+    width: auto;
+    height: 800px;
+    z-index: 1;
+}
+
+.rocket{
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: auto;
+    top: 5rem;
+    left: 200rem;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 30;
+    transform: rotate(45deg);
+}
+
+.h{
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    z-index: 20;
+}
+
+.i{
+    position: absolute;
+    top: 8rem;
+    left: 30rem;
+    z-index: 20;
+}
+
+.j{
+    position: absolute;
+    top: 15rem;
+    left: 45rem;
+    z-index: 20;
+}
+
+.k{
+    position: absolute;
+    top: 15rem;
+    left: 90rem;
+    z-index: 20;
+}
+
+.l{
+    position: absolute;
+    top: 8rem;
+    left: 120rem;
+    z-index: 20;
+}
+
+.m{
+    position: absolute;
+    top: 20rem;
+    left: 150rem;
+    z-index: 20;
+}
+
+.n{
+    position: absolute;
+    top: 5rem;
+    left: 190rem;
+    z-index: 20;
+}
+
+.people{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 800px;
+    width: auto;
+    z-index: 10;
+}
+
+.star{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: auto;
+    top: 10rem;
+    left: 60%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 30;
+}
+
+.space{
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    height: 800px;
+    z-index: 1;
+}
+
+.home{
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: auto;
+    top: 20rem;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 30;
+}
+
+.box {
+    position: relative;
+  }
+
+.red {
+    position: absolute;
+    display: block;
+    top: 0rem;
+    left: 0rem;
+    height: 800px;
+    width: 1280px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e44242;
+    z-index: 20;
+  }
+  
+.box:hover .red {
+    opacity: 0.4;
+    height: 800px;
+    width: 1280px;
+  }
+  
+.last {
+    position: absolute;
+    display: block;
+    top: 30rem;
+    left: 50%;
+    padding: 2rem;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: 600;
+    z-index: 30;
+    font-size: 3rem;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
